@@ -13,3 +13,5 @@ Run demo_train.m (examples/Train/demo_train.m)
 -- Testing:
 
 We provide our models and test codes for two tasks under the examples/Test/ folder, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
+
+We express gratitudes to [SRCNN](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html) as we benefit a lot.
