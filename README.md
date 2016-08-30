@@ -4,7 +4,7 @@ The code is based on MatConvNet toolbox. Please visit the [homepage](http://www.
 
 --Training:
 
-Download the training data from the link below and put it under the examples/Train/TrainingData folder.
+Download the training data from the link below and put it under the examples/Train/TrainingData/ folder.
 
 https://drive.google.com/open?id=0B8_MZ8a8aoSeMm42TTJzc25MSGM
 
@@ -12,4 +12,4 @@ Run demo_train.m (examples/Train/demo_train.m)
 
 --Testing:
 
-We provide test codes for two tasks under the examples/Test folder, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
+We provide test codes for two tasks under the examples/Test/ folder, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
