@@ -12,4 +12,4 @@ Run demo_train.m (examples/Train/demo_train.m)
 
 --Testing:
 
-We provide test codes for two tasks under the examples/Test/ folder, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
+We provide our models and test codes for two tasks under the examples/Test/ folder, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
