@@ -1,7 +1,15 @@
-# MatConvNet: CNNs for MATLAB
+# Deep Joint Image Filtering
 
-**MatConvNet** is a MATLAB toolbox implementing *Convolutional Neural
-Networks* (CNNs) for computer vision applications. It is simple,
-efficient, and can run and learn state-of-the-art CNNs. Several
-example CNNs are included to classify and encode images. Please visit
-the [homepage](http://www.vlfeat.org/matconvnet) to know more.
+The code is based on MatConvNet toolbox. Please visit the [homepage](http://www.vlfeat.org/matconvnet) to know more.
+
+Training:
+
+Download the training data from the link below and put it under the examples/Train/TrainingData folder.
+
+https://drive.google.com/open?id=0B8_MZ8a8aoSeMm42TTJzc25MSGM
+
+Run demo_train.m (examples/Train/demo_train.m)
+
+Testing:
+
+We provide test codes for two tasks under the examples/Test folder, i.e., depth map upsampling and Flash/Non-flash image noise reduction
