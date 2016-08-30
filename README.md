@@ -1,6 +1,6 @@
 # Deep Joint Image Filtering
 
-The code is based on MatConvNet toolbox. Please visit the [homepage](http://www.vlfeat.org/matconvnet) to know more about MatConvNet and ensure a successful installation and compiling.
+The code is based on MatConvNet toolbox. Please visit this [homepage](http://www.vlfeat.org/matconvnet) to know more about MatConvNet and ensure a successful installation and compiling.
 
 --Training:
 
