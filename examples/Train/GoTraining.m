@@ -3,7 +3,6 @@ function [net, info] = GoTraining(imdb,varargin)
 
 opts.train.batchSize = 1;
 opts.train.numEpochs = 2000;
-opts.train.gpus = [];
 
 opts.train.continue = true ;
 opts = vl_argparse(opts, varargin) ;
