@@ -343,7 +343,7 @@ if opts.enableGpu
 end
 
 % For the cudaMethod='nvcc'
-if opts.enableGpu && strcmp(opts.cudaMethod,'nvcc')
+if opts.enableGpu & strcmp(opts.cudaMethod,'nvcc')
   flags.nvcc = flags.cc ;
   flags.nvcc{end+1} = ['-I"' fullfile(matlabroot, 'extern', 'include') '"'] ;
   flags.nvcc{end+1} = ['-I"' fullfile(matlabroot, 'toolbox','distcomp','gpu','extern','include') '"'] ;
