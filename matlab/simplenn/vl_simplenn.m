@@ -210,7 +210,7 @@ for i=1:n
                               cudnn{:}) ; 
         end
         
-        if(i==5)           
+        if(i==5)     % The outputs of two streams join at the 5th layer      
             
 %              res(i+1).x=gather(res(i+1).x);
 %              res_depth(i+1).x=gather(res_depth(i+1).x);
