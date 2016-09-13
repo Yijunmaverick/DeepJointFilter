@@ -31,8 +31,5 @@ for i=1:s
 end
 figure();imshow(image);
 figure();imshow(result);
+
 clear result;
-  
-
-
-
