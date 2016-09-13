@@ -31,5 +31,3 @@ output = gather(res(end).x);
 
 figure, imshow(input(:,:,1)); title('BicubicUpsampling');
 figure, imshow(output); title('DeepJointFiltering');
-
-clear input;
