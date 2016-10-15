@@ -14,10 +14,10 @@ Guide_image = modcrop(Guide_image, up_scale);
 [h,w,~]=size(Guide_image);
  
 %% generate low-res by NN downsampling
-im_l = imresize(im, 1/up_scale, 'nearest');
+im_l = im(up_scale:up_scale:end, up_scale:up_scale:end);
 
 %% first apply bicubic upsampling
-im_l = imresize(im_l, up_scale, 'bicubic');
+im_l = imresize(im_l, [h w], 'bicubic');
 
 input = single(zeros(h,w,4));
 input(:,:,1) = im_l;
