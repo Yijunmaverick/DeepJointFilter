@@ -9,8 +9,7 @@ nonflash = 'carpet_01_noflash.jpg';
 image  = imread(nonflash);
 [h,w,s]=size(image);
 image = double(image)./255;
-
-    
+  
 %% guided image
 Guide_image = imread(flash);
 Guide_image = double(Guide_image)./255;
