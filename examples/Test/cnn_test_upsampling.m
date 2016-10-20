@@ -13,7 +13,7 @@ Guide_image = double(Guide_image)./255;
 Guide_image = modcrop(Guide_image, up_scale);
 [h,w,~]=size(Guide_image);
  
-%% generate low-res by NN downsampling
+%% generate low-res 
 im_l = im(up_scale:up_scale:end, up_scale:up_scale:end);
 
 %% first apply bicubic upsampling
