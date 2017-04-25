@@ -4,9 +4,7 @@ The code is based on MatConvNet toolbox. Please visit this [homepage](http://www
 
 -- Training:
 
-Download the training data (for 8x depth upsampling) from the link below and put it under the examples/Train/TrainingData/ folder.
-
-https://drive.google.com/open?id=0B8_MZ8a8aoSeMm42TTJzc25MSGM
+Download the training [data](https://drive.google.com/open?id=0B8_MZ8a8aoSeMm42TTJzc25MSGM) (for 8x depth upsampling) and put it under the examples/Train/TrainingData/ folder.
 
 Run demo_train.m (examples/Train/demo_train.m)
 
