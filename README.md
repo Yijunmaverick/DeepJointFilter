@@ -10,15 +10,30 @@ MatConvNet implementation of our ECCV16 [paper](https://drive.google.com/file/d/
 - Matlab
 - [MatConvNet](http://www.vlfeat.org/matconvnet) toolbox
 
+```
+matlab/vl_setupnn.m
+matlab/vl_compilenn.m
+```
+
+
 ## Training:
 
 - Download the training [data](https://drive.google.com/open?id=0B8_MZ8a8aoSeMm42TTJzc25MSGM) (for 8x depth upsampling) and put it under the examples/Train/TrainingData/ folder.
 
-- Run demo_train.m (examples/Train/demo_train.m)
+- Go for training.
+
+```
+examples/Train/demo_train.m
+```
 
 ## Testing:
 
-We provide our models and test codes for two tasks under the examples/Test/ folder, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
+We provide our models and test codes for two tasks, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
+
+```
+examples/Test/cnn_test_upsampling.m
+examples/Test/cnn_test_noise_reduction.m
+```
 
 
 ## Citation
