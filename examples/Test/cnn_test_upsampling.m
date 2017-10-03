@@ -26,8 +26,17 @@ input(:,:,2:4) = Guide_image;
 % filtering
 load('Upsampling_8x.mat')
 net1.layers(1,1:10)=net.layers(1,1:10);
-res=vl_simplenn(net1,input);
+res=vl_simplenn(net1, input);
 output = gather(res(end).x);
 
-figure, imshow(input(:,:,1)); title('BicubicUpsampling');
-figure, imshow(output); title('DeepJointFiltering');
+% Residual-based filtering
+load('Upsampling_res_8x.mat')
+net1.layers(1,1:10)=net.layers(1,1:10);
+res=vl_simplenn(net1, input);
+output_res = gather(res(end).x) + input(7:end-6,7:end-6);
+
+figure();
+subplot(131); imshow(input(:,:,1)); title('Bicubic');
+subplot(132); imshow(output); title('Filtering');
+subplot(133); imshow(output_res); title('Residual-based filtering')
+
