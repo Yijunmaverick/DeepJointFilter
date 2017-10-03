@@ -18,7 +18,14 @@ MatConvNet implementation of our ECCV16 [paper](https://drive.google.com/file/d/
 
 ## Training:
 
-- Download the training [data](https://drive.google.com/open?id=0B8_MZ8a8aoSeMm42TTJzc25MSGM) (for 8x depth upsampling) and put it under the examples/Train/TrainingData/ folder.
+Generate the training data (nearly the same way used in [SRCNN](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html).
+
+```
+> examples/Train/generate_trainingdata.m
+```
+
+Or please download the training [data](https://drive.google.com/open?id=0B8_MZ8a8aoSeMm42TTJzc25MSGM) (for 8x depth upsampling) and put it under the examples/Train/TrainingData/ folder.
+
 
 ```
 > examples/Train/demo_train.m
