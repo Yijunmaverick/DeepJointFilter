@@ -1,6 +1,14 @@
-# Deep Joint Image Filtering
+# [Deep Joint Image Filtering](https://sites.google.com/site/yijunlimaverick/deepjointfilter)
 
-The code is based on MatConvNet toolbox. Please visit this [homepage](http://www.vlfeat.org/matconvnet) to know more about MatConvNet and ensure a successful installation and compiling.
+MatConvNet implementation of our ECCV16 [paper](https://drive.google.com/file/d/0B8_MZ8a8aoSeSVZRNVB1TkYtbFU/view) on joint image filtering. For academic use only. 
+
+<img src='figs/teaser.png' width=800>
+
+## Prerequisites
+
+- Tested on Linux or Windows
+- Matlab
+- [MatConvNet](http://www.vlfeat.org/matconvnet) toolbox (Please compile first)
 
 -- Training:
 
