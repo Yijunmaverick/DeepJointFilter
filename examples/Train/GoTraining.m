@@ -15,3 +15,5 @@ function [im, labels] = getBatch(imdb, batch)
 % --------------------------------------------------------------------
 im = imdb.images.data(:,:,:,batch) ;
 labels = imdb.images.labels(:,:,:,batch) ;
+% if learning the residual only
+% labels = labels - im(7:33-6,7:33-6,1,:);
