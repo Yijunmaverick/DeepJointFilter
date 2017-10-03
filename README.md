@@ -8,7 +8,7 @@ MatConvNet implementation of our ECCV16 [paper](https://drive.google.com/file/d/
 
 - Tested on Linux or Windows
 - Matlab R2015b
-- [MatConvNet](http://www.vlfeat.org/matconvnet) toolbox
+- [MatConvNet](http://www.vlfeat.org/matconvnet)
 
 ```
 > matlab/vl_setupnn.m
