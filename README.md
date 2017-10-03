@@ -26,7 +26,7 @@ MatConvNet implementation of our ECCV16 [paper](https://drive.google.com/file/d/
 
 ## Testing:
 
-We provide our models and test codes for two tasks, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
+We provide our models for two tasks, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
 
 ```
 > examples/Test/cnn_test_upsampling.m
