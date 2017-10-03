@@ -18,7 +18,7 @@ MatConvNet implementation of our ECCV16 [paper](https://drive.google.com/file/d/
 
 ## Training:
 
-Generate the training data (nearly the same way used in [SRCNN](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html).
+Generate the training data (nearly the same way used in [SRCNN](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html)).
 
 ```
 > examples/Train/generate_trainingdata.m
