@@ -33,10 +33,9 @@ output = gather(res(end).x);
 load('Upsampling_res_8x.mat')
 net1.layers(1,1:10)=net.layers(1,1:10);
 res=vl_simplenn(net1, input);
-output_res = gather(res(end).x) + input(7:end-6,7:end-6);
+output_res = gather(res(end).x) + input(7:end-6,7:end-6,1);
 
 figure();
 subplot(131); imshow(input(:,:,1)); title('Bicubic');
 subplot(132); imshow(output); title('Filtering');
 subplot(133); imshow(output_res); title('Residual-based filtering')
-
