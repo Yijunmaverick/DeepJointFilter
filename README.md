@@ -11,8 +11,8 @@ MatConvNet implementation of our ECCV16 [paper](https://drive.google.com/file/d/
 - [MatConvNet](http://www.vlfeat.org/matconvnet) toolbox
 
 ```
-matlab/vl_setupnn.m
-matlab/vl_compilenn.m
+> matlab/vl_setupnn.m
+> matlab/vl_compilenn.m
 ```
 
 
@@ -23,7 +23,7 @@ matlab/vl_compilenn.m
 - Go for training.
 
 ```
-examples/Train/demo_train.m
+> examples/Train/demo_train.m
 ```
 
 ## Testing:
@@ -31,10 +31,18 @@ examples/Train/demo_train.m
 We provide our models and test codes for two tasks, i.e., depth map upsampling and Flash/Non-flash image noise reduction.
 
 ```
-examples/Test/cnn_test_upsampling.m
-examples/Test/cnn_test_noise_reduction.m
+> examples/Test/cnn_test_upsampling.m
+> examples/Test/cnn_test_noise_reduction.m
 ```
 
+## Note
+
+For training with GPU, please uncomment line 215-217 and 222-223 in matlab/simplenn.m and then re-compile.
+
+```
+> vl_setupnn.m
+> vl_compilenn('enableGpu', true)
+```
 
 ## Citation
 
