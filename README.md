@@ -1,6 +1,6 @@
 # [Deep Joint Image Filtering](https://sites.google.com/site/yijunlimaverick/deepjointfilter)
 
-MatConvNet implementation of our ECCV16 [paper](https://drive.google.com/file/d/0B8_MZ8a8aoSeSVZRNVB1TkYtbFU/view) on joint image filtering. For academic use only. 
+MatConvNet implementation of our ECCV16 [paper](https://drive.google.com/file/d/0B8_MZ8a8aoSeSVZRNVB1TkYtbFU/view) on joint image filtering. 
 
 <img src='figs/teaser.png' width=800>
 
