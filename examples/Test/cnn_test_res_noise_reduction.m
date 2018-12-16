@@ -13,7 +13,7 @@ Guide_image = image;
 input = single(zeros(h,w,4));
 input(:,:,2:4) = Guide_image;
     
-%% load model    
+%% load model
 load('NoiseReduction_res.mat')
 net1.layers(1,1:10)=net.layers(1,1:10);
     
